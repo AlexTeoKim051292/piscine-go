@@ -4,7 +4,7 @@ import "github.com/01-edu/z01"
 
 func PrintComb() {
 
-	for x := '0'; x <= '7'; i++ {
+	for x := '0'; x <= '7'; x++ {
 
 		for y := '0'; y <= '8'; y++ {
 
