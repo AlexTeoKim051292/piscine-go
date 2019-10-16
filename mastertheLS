@@ -1,0 +1,2 @@
+#!/bin/bash
+find . \( ! -regex '.*/\..*' \) | sort -n | awk -F/ '{print $NF}'  | tr '\n' ',' | cut -c 3- | sed 's/,$//g'
