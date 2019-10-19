@@ -8,5 +8,4 @@ func PrintStr(str string) {
 	for _, element := range stroka {
 		z01.PrintRune(element)
 	}
-	z01.PrintRune(10)
 }
