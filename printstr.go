@@ -1,8 +1,8 @@
 package piscine
 
 func PrintStr(str string) int {
-	var line := []rune(str)
-	for i := range line {
+	var stroka := []rune(str)
+	for i := range stroka {
 		counter = i
 	}
 	return counter + 1
