@@ -1,9 +1,9 @@
 package piscine
 
 func PrintStr(str string) int {
-	sum := 0
-	for i := 0; i < len(str); i++ {
-		sum := sum + 1
+	var line := []rune(str)
+	for i := range line {
+		counter = i
 	}
-	return sum
+	return counter + 1
 }
