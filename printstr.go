@@ -1,7 +1,7 @@
 package piscine
 
 func PrintStr(str string) int {
-	var stroka := []rune(str)
+	var stroka = []rune(str)
 	for i := range stroka {
 		counter = i
 	}
