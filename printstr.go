@@ -7,5 +7,5 @@ func PrintStr(str string) {
 	for i := range stroka {
 		stroka1 := stroka + stroka[i]
 	}
-	return stroka1
+	return string(stroka1)
 }
