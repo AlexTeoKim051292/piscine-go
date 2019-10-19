@@ -1,6 +1,6 @@
 package piscine
 
-func StrLen(str string) int {
+func PrintStr(str string) int {
 	sum := 0
 	for i := 0; i < len(str); i++ {
 		sum := sum + 1
