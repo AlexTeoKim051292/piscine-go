@@ -11,7 +11,7 @@ func RecursiveFactorial(nb int) int {
 	} else if nb >= 15 {
 		result = 0
 	} else if nb > 1 {
-		result = result * RecursiveFactorial(nb-1)
+		result = nb * RecursiveFactorial(nb-1)
 	}
 	return result
 }
