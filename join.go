@@ -10,7 +10,7 @@ func Join(strs []string, sep string) string {
 
 	for i := range strs {
 		if i != k {
-			strs[i] = strs[i] + sep
+			strs[i] += sep
 		}
 
 	}
