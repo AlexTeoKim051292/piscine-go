@@ -2,7 +2,7 @@ package piscine
 
 func Join(strs []string, sep string) string {
 
-	var result string
+	result := ""
 	k := 0
 	for i := range strs {
 		k = i
